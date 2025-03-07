@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  --color-grey-500: hsl(234, 12%, 34%);
+  --color-grey-400: hsl(212, 6%, 44%);
+  --color-red: hsl(0, 78%, 62%);
+  --color-cyan: hsl(180, 62%, 55%);
+  --color-blue: hsl(212, 86%, 64%);
+  --color-orange: hsl(34, 97%, 64%);
+  --text-size-1: 2.25rem; /* 36px */
+  --text-size-2: 1.25rem; /* 20px */
+  --text-size-3: 0.9375rem; /* 15px */
+  --text-size-4: 0.8125rem; /* 13px */
+  --semibold: 600;
+  --regular: 400;
+  --extra-light: 200;
+  --spacing-500: 2.5rem;    /* 40px */
+  --spacing-400: 2rem;      /* 32px */
+  --spacing-300: 1.5rem;    /* 24px */
+  --spacing-200: 1rem;      /* 16px */
+  --spacing-100: 0.5rem;    /* 8px */
+}
+
+/* Colors */
+.color-grey-500 {
+  color: var(--color-grey-500);
+}
+.color-grey-400 {
+  color: var(--color-grey-400);
+}
+.color-red {
+  color: var(--color-red);
+}
+.color-cyan {
+  color: var(--color-cyan);
+}
+.color-blue {
+  color: var(--color-blue);
+}
+.color-orange {
+  color: var(--color-orange);
+}
+
+/* Text Presets */
+.text-preset-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--semibold);
+  font-style: normal;
+  font-size: var(--text-size-1);
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+}
+.text-preset-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--extra-light);
+  font-style: normal;
+  font-size: var(--text-size-1);
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+}
+
+.text-preset-3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--semibold);
+  font-style: normal;
+  font-size: var(--text-size-2);
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+.text-preset-4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--regular);
+  font-style: normal;
+  font-size: var(--text-size-3);
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+.text-preset-5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--regular);
+  font-style: normal;
+  font-size: var(--text-size-4);
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+/* Attribution */
+footer {
+  position: absolute;
+  bottom: 2%;
+}
+.attribution {
+  font-size: 0.6875rem; /* 11px */
+  text-align: center;
+}
+.attribution a {
+  color: var(--color-blue);
+  text-decoration: none;
+}
