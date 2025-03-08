@@ -108,6 +108,10 @@ html {
 }
 
 /* Rules */
+html,
+body {
+  background-color: #fafafa;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -117,7 +121,6 @@ body {
   min-height: 100vh;
   height: 100%;
   gap: 3.75rem;
-  background-color: #fafafa;
 }
 
 main {
